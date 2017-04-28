@@ -1,0 +1,20 @@
+package: plori/helm-broker
+import:
+- package: github.com/ghodss/yaml
+- package: github.com/gorilla/mux
+  version: ^1.3.0
+- package: github.com/kubernetes-incubator/service-catalog
+  subpackages:
+  - broker/controller
+  - broker/k8s/controller
+  - broker/server
+  - model
+  - model/service_broker
+  - pkg
+  - registry/server
+  - util
+testImport:
+- package: github.com/onsi/ginkgo
+  version: ^1.2.0
+- package: github.com/onsi/gomega
+  version: ^1.0.0
