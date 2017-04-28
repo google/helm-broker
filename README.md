@@ -5,8 +5,27 @@ cluster and deploys Kubernetes native resources only using Helm as the reifier.
 
 This is not an official Google product
 
-You need to have a [helm](https://github.com/k8s.io/helm) binary and tiller
-running in the cluster and need to point this broker to it.
+## Prerequisites
+
+1) A [helm](https://github.com/k8s.io/helm) tiller running in the cluster.
+
+2) [Glide](https://github.com/Masterminds/glide) installed and in your path.
+
+## Building and deploying
+
+To install the dependencies, build the binaries, and build the Docker images, run
+the following:
+
+```
+make init build docker
+```
+
+To then push your images to a Google Cloud Project registry, run the following,
+where `$PROJECT_NAME` is the name of your GCP project:
+
+```
+PROJECT=$PROJECT_NAME make push
+```
 
 ## Create a type for Helm chart
 

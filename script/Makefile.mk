@@ -127,5 +127,5 @@ else
 endif
 
 # The first target in the makefile is the default.
-all: build test lint
+all: init build test lint
 
