@@ -21,8 +21,8 @@ import (
 	"os"
 	"strings"
 
-	"plori/helm-broker/broker/controller"
-	"plori/helm-broker/util"
+	"github.com/helm-broker/broker/controller"
+	"github.com/helm-broker/util"
 
 	sbmodel "github.com/kubernetes-incubator/service-catalog/pkg/brokerapi"
 )

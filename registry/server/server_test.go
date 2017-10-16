@@ -22,7 +22,7 @@ import (
 	"net/http/httptest"
 
 	model "github.com/kubernetes-incubator/service-catalog/pkg/brokerapi"
-	"plori/helm-broker/registry/server"
+	"github.com/helm-broker/registry/server"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

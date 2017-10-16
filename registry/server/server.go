@@ -21,7 +21,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"plori/helm-broker/util"
+	"github.com/helm-broker/util"
 
 	"github.com/gorilla/mux"
 	model "github.com/kubernetes-incubator/service-catalog/pkg/brokerapi"

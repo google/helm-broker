@@ -20,9 +20,8 @@
 ROOT := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 # Strip /script/ suffix to get root of the Git client.
 ROOT := $(ROOT:/script/=)
-# Strip the /src/github.com/kubernetes-incubator/service-catalog suffix to get the GOPATH.
-#export GOPATH := $(ROOT:/src/github.com/kubernetes-incubator/service-catalog=)
-export GOPATH := $(ROOT:/src/plori/helm-broker=)
+# Strip the /src/github.com/helm-broker suffix to get the GOPATH.
+export GOPATH := $(ROOT:/src/github.com/helm-broker=)
 
 export VERSION ?= $(shell git describe --always --abbrev=40 --dirty)
 export GCLOUD  ?= gcloud
@@ -32,8 +31,7 @@ GO             := go
 GOLINT         := golint
 GO_VERSION     := 1.7.3
 BINDIR         := $(GOPATH)/bin
-#PKG_ROOT       := github.com/kubernetes-incubator/service-catalog
-PKG_ROOT       := plori/helm-broker
+PKG_ROOT       := github.com/helm-broker
 ARCH           := amd64
 
 ifeq "$(V)" "1"

@@ -22,7 +22,7 @@ import (
 	"os"
 	"path"
 
-	"plori/helm-broker/registry/server"
+	"github.com/helm-broker/registry/server"
 )
 
 const (

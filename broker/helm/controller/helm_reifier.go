@@ -23,7 +23,7 @@ import (
 	"strings"
 
 	model "github.com/kubernetes-incubator/service-catalog/pkg/brokerapi"
-	"plori/helm-broker/util"
+	"github.com/helm-broker/util"
 
 	"github.com/ghodss/yaml"
 )
