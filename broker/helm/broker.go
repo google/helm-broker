@@ -19,8 +19,8 @@ import (
 	"os"
 	"path"
 
-	"plori/helm-broker/broker/helm/controller"
-	"plori/helm-broker/broker/server"
+	"github.com/helm-broker/broker/helm/controller"
+	"github.com/helm-broker/broker/server"
 )
 
 const (

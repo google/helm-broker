@@ -1,4 +1,4 @@
-package: plori/helm-broker
+package: github.com/helm-broker
 import:
 - package: github.com/ghodss/yaml
 - package: github.com/gorilla/mux

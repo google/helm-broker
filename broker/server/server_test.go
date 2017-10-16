@@ -19,8 +19,8 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	"plori/helm-broker/broker/controller"
-	. "plori/helm-broker/broker/server"
+	"github.com/helm-broker/broker/controller"
+	. "github.com/helm-broker/broker/server"
 	brokerModel "github.com/kubernetes-incubator/service-catalog/pkg/brokerapi"
 
 	. "github.com/onsi/ginkgo"

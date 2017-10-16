@@ -13,7 +13,7 @@
 # limitations under the License.
 
 #PKG=github.com/kubernetes-incubator/service-catalog/broker/server
-PKG= plori/helm-broker/broker/server
+PKG= github.com/helm-broker/broker/server
 
 include ../../script/Makefile.mk
 include ../../script/Common.mk

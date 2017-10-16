@@ -14,7 +14,7 @@
 
 BIN=registry
 #PKG=github.com/kubernetes-incubator/service-catalog/registry
-PKG=plori/helm-broker/registry
+PKG=github.com/helm-broker/registry
 DOCKER=$(BIN)
 
 include ../script/Makefile.mk

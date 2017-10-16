@@ -13,8 +13,7 @@
 # limitations under the License.
 
 BIN=helm-broker
-#PKG=github.com/kubernetes-incubator/service-catalog/broker/k8s
-PKG=plori/helm-broker/broker/helm
+PKG=github.com/helm-broker/broker/helm
 DOCKER=$(BIN)
 
 include ../../script/Makefile.mk
