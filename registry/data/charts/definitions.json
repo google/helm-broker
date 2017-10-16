@@ -7,6 +7,7 @@
       {
         "name": "default",
         "id": "0CEC1E1F-CAFA-40C7-9761-491D0B164204",
+	"description": "Default plan",
         "metadata": {
           "instanceType": "gs://helm-sb-test/booksbe-0.0.2.tgz"
         }
@@ -22,6 +23,7 @@
       {
         "name": "default",
         "id": "70E9DB0B-82BA-402E-A9E4-B460C3199E97",
+	"description": "Default plan",
         "metadata": {
           "instanceType": "gs://helm-sb-test/booksfe-0.0.3.tgz"
         }
@@ -37,6 +39,7 @@
       {
         "name": "default",
         "id": "67EBBF95-D153-4A3F-8FA8-43B1299CC27F",
+	"description": "Default plan",
         "metadata": {
           "instanceType": "gs://helm-sb-test/user-provided-client-0.0.1.tgz"
         }
